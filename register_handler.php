@@ -5,7 +5,7 @@ if (isset($_POST["btn_reg"])){
     $email = $_POST["y"];
     $password = $_POST["z"];
     //To start saving, connect to your created database
-    require_once "connection.php";
+   // require_once "connection.php";
 
     //Now prepare the insert query
     $insertQuery = "INSERT INTO `users`(`id`, `jina`, `arafa`, `siri`) 

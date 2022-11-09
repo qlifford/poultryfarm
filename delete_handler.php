@@ -2,7 +2,7 @@
 if (isset($_GET["user_id"])){
     $receivedId = $_GET["user_id"];
     //To delete, connect to the database
-    require_once "connection.php";
+   // require_once "connection.php";
     //Prepare the delete query
     $deleteQuery = "delete from users where id=$receivedId";
     //Complete the deletion using the mysqli query function

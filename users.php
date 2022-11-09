@@ -20,7 +20,7 @@
         </tr>
         <?php
             //Start by connecting to the database
-        require_once "connection.php";
+      //  require_once "connection.php";
             //Prepare the select query
         $selectQuery = "SELECT * FROM `users` WHERE 1";
         $users = mysqli_query($connection,$selectQuery);

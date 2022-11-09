@@ -5,7 +5,7 @@ if (isset($_POST["btn_update"])){
     $updatedEmail = $_POST["y"];
     $updatedPassword = $_POST["z"];
     //Connect to the database
-    require_once "connection.php";
+  //require_once "connection.php";
     //Prepare the update query
     $updateQuery = "UPDATE `users` SET `jina`='$updatedName',`arafa`='$updatedEmail',
                    `siri`='$updatedPassword' WHERE id='$userId'";
